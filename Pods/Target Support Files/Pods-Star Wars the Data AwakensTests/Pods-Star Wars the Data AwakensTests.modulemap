@@ -1,0 +1,6 @@
+framework module Pods_Star_Wars_the_Data_AwakensTests {
+  umbrella header "Pods-Star Wars the Data AwakensTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

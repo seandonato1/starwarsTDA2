@@ -1,0 +1,875 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91964DE94874976D6ACBA59D /* Pods_Star_Wars_the_Data_AwakensUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A794B5095DC7F87CF798092 /* Pods_Star_Wars_the_Data_AwakensUITests.framework */; };
+		A16AEC923CDA391635F2B8F6 /* Pods_Star_Wars_the_Data_AwakensTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D714FA6C0C0BF084058447A0 /* Pods_Star_Wars_the_Data_AwakensTests.framework */; };
+		A9BC4B6221111F1200A6626C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BC4B6121111F1200A6626C /* AppDelegate.swift */; };
+		A9BC4B6421111F1200A6626C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BC4B6321111F1200A6626C /* ViewController.swift */; };
+		A9BC4B6721111F1200A6626C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9BC4B6521111F1200A6626C /* Main.storyboard */; };
+		A9BC4B6A21111F1200A6626C /* Star_Wars_the_Data_Awakens.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A9BC4B6821111F1200A6626C /* Star_Wars_the_Data_Awakens.xcdatamodeld */; };
+		A9BC4B6C21111F1300A6626C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9BC4B6B21111F1300A6626C /* Assets.xcassets */; };
+		A9BC4B6F21111F1300A6626C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9BC4B6D21111F1300A6626C /* LaunchScreen.storyboard */; };
+		A9BC4B7A21111F1300A6626C /* Star_Wars_the_Data_AwakensTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BC4B7921111F1300A6626C /* Star_Wars_the_Data_AwakensTests.swift */; };
+		A9BC4B8521111F1300A6626C /* Star_Wars_the_Data_AwakensUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BC4B8421111F1300A6626C /* Star_Wars_the_Data_AwakensUITests.swift */; };
+		A9BC4B9421112C2000A6626C /* SerifGothicStd-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A9BC4B932111213600A6626C /* SerifGothicStd-Bold.otf */; };
+		A9BC4B9F2111354D00A6626C /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BC4B9E2111354D00A6626C /* Vehicle.swift */; };
+		A9BC4BA12111356F00A6626C /* Starship.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BC4BA02111356F00A6626C /* Starship.swift */; };
+		A9BC4BA42111359500A6626C /* VehicleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BC4BA22111359500A6626C /* VehicleViewController.swift */; };
+		A9BC4BA52111359500A6626C /* VehicleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9BC4BA32111359500A6626C /* VehicleViewController.xib */; };
+		A9BC4BA8211135AB00A6626C /* StarshipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BC4BA6211135AB00A6626C /* StarshipViewController.swift */; };
+		A9BC4BA9211135AB00A6626C /* StarshipViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9BC4BA7211135AB00A6626C /* StarshipViewController.xib */; };
+		A9BC4BAB211135BB00A6626C /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BC4BAA211135BB00A6626C /* Planet.swift */; };
+		A9BC4BAE211135CD00A6626C /* PlanetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BC4BAC211135CD00A6626C /* PlanetViewController.swift */; };
+		A9BC4BAF211135CD00A6626C /* PlanetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9BC4BAD211135CD00A6626C /* PlanetViewController.xib */; };
+		A9BC4BB2211135E000A6626C /* SpeciesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BC4BB0211135E000A6626C /* SpeciesViewController.swift */; };
+		A9BC4BB3211135E000A6626C /* SpeciesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9BC4BB1211135E000A6626C /* SpeciesViewController.xib */; };
+		A9BC4BB5211135EF00A6626C /* Species.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BC4BB4211135EF00A6626C /* Species.swift */; };
+		A9BC4BB7211135FB00A6626C /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BC4BB6211135FB00A6626C /* Person.swift */; };
+		A9BC4BBA2111360A00A6626C /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BC4BB82111360A00A6626C /* PersonViewController.swift */; };
+		A9BC4BBB2111360A00A6626C /* PersonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9BC4BB92111360A00A6626C /* PersonViewController.xib */; };
+		A9BC4BBE2111361900A6626C /* FilmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BC4BBC2111361900A6626C /* FilmViewController.swift */; };
+		A9BC4BBF2111361900A6626C /* FilmViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9BC4BBD2111361900A6626C /* FilmViewController.xib */; };
+		A9BC4BC12111362300A6626C /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BC4BC02111362300A6626C /* Film.swift */; };
+		A9BC4BC32111747A00A6626C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BC4BC22111747A00A6626C /* Constants.swift */; };
+		A9BC4BC62111764F00A6626C /* SWDataTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BC4BC42111764F00A6626C /* SWDataTableViewController.swift */; };
+		A9BC4BC72111764F00A6626C /* SWDataTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9BC4BC52111764F00A6626C /* SWDataTableViewController.xib */; };
+		D1CE74770E2B2CD3A8B0A170 /* Pods_Star_Wars_the_Data_Awakens.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A5E3B83D1B00C8B81A3579 /* Pods_Star_Wars_the_Data_Awakens.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9BC4B7621111F1300A6626C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9BC4B5621111F1200A6626C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9BC4B5D21111F1200A6626C;
+			remoteInfo = "Star Wars the Data Awakens";
+		};
+		A9BC4B8121111F1300A6626C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9BC4B5621111F1200A6626C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9BC4B5D21111F1200A6626C;
+			remoteInfo = "Star Wars the Data Awakens";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A7169DA569B7F8D373444E1 /* Pods-Star Wars the Data AwakensUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Star Wars the Data AwakensUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Star Wars the Data AwakensUITests/Pods-Star Wars the Data AwakensUITests.release.xcconfig"; sourceTree = "<group>"; };
+		14A5E3B83D1B00C8B81A3579 /* Pods_Star_Wars_the_Data_Awakens.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Star_Wars_the_Data_Awakens.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37227BFE1845EFD7BC0A38C5 /* Pods-Star Wars the Data AwakensUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Star Wars the Data AwakensUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Star Wars the Data AwakensUITests/Pods-Star Wars the Data AwakensUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4F1951985601C8D84F6D4101 /* Pods-Star Wars the Data Awakens.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Star Wars the Data Awakens.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Star Wars the Data Awakens/Pods-Star Wars the Data Awakens.debug.xcconfig"; sourceTree = "<group>"; };
+		7A794B5095DC7F87CF798092 /* Pods_Star_Wars_the_Data_AwakensUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Star_Wars_the_Data_AwakensUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9099D6AFAABEA8420EF42EF3 /* Pods-Star Wars the Data AwakensTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Star Wars the Data AwakensTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Star Wars the Data AwakensTests/Pods-Star Wars the Data AwakensTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A9BC4B5E21111F1200A6626C /* Star Wars the Data Awakens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Star Wars the Data Awakens.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9BC4B6121111F1200A6626C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A9BC4B6321111F1200A6626C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A9BC4B6621111F1200A6626C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9BC4B6921111F1200A6626C /* Star_Wars_the_Data_Awakens.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Star_Wars_the_Data_Awakens.xcdatamodel; sourceTree = "<group>"; };
+		A9BC4B6B21111F1300A6626C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9BC4B6E21111F1300A6626C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9BC4B7021111F1300A6626C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9BC4B7521111F1300A6626C /* Star Wars the Data AwakensTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Star Wars the Data AwakensTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9BC4B7921111F1300A6626C /* Star_Wars_the_Data_AwakensTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star_Wars_the_Data_AwakensTests.swift; sourceTree = "<group>"; };
+		A9BC4B7B21111F1300A6626C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9BC4B8021111F1300A6626C /* Star Wars the Data AwakensUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Star Wars the Data AwakensUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9BC4B8421111F1300A6626C /* Star_Wars_the_Data_AwakensUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star_Wars_the_Data_AwakensUITests.swift; sourceTree = "<group>"; };
+		A9BC4B8621111F1300A6626C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9BC4B932111213600A6626C /* SerifGothicStd-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SerifGothicStd-Bold.otf"; sourceTree = "<group>"; };
+		A9BC4B9E2111354D00A6626C /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		A9BC4BA02111356F00A6626C /* Starship.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Starship.swift; sourceTree = "<group>"; };
+		A9BC4BA22111359500A6626C /* VehicleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleViewController.swift; sourceTree = "<group>"; };
+		A9BC4BA32111359500A6626C /* VehicleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VehicleViewController.xib; sourceTree = "<group>"; };
+		A9BC4BA6211135AB00A6626C /* StarshipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarshipViewController.swift; sourceTree = "<group>"; };
+		A9BC4BA7211135AB00A6626C /* StarshipViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StarshipViewController.xib; sourceTree = "<group>"; };
+		A9BC4BAA211135BB00A6626C /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
+		A9BC4BAC211135CD00A6626C /* PlanetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetViewController.swift; sourceTree = "<group>"; };
+		A9BC4BAD211135CD00A6626C /* PlanetViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlanetViewController.xib; sourceTree = "<group>"; };
+		A9BC4BB0211135E000A6626C /* SpeciesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeciesViewController.swift; sourceTree = "<group>"; };
+		A9BC4BB1211135E000A6626C /* SpeciesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SpeciesViewController.xib; sourceTree = "<group>"; };
+		A9BC4BB4211135EF00A6626C /* Species.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Species.swift; sourceTree = "<group>"; };
+		A9BC4BB6211135FB00A6626C /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		A9BC4BB82111360A00A6626C /* PersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
+		A9BC4BB92111360A00A6626C /* PersonViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonViewController.xib; sourceTree = "<group>"; };
+		A9BC4BBC2111361900A6626C /* FilmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmViewController.swift; sourceTree = "<group>"; };
+		A9BC4BBD2111361900A6626C /* FilmViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FilmViewController.xib; sourceTree = "<group>"; };
+		A9BC4BC02111362300A6626C /* Film.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
+		A9BC4BC22111747A00A6626C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A9BC4BC42111764F00A6626C /* SWDataTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWDataTableViewController.swift; sourceTree = "<group>"; };
+		A9BC4BC52111764F00A6626C /* SWDataTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SWDataTableViewController.xib; sourceTree = "<group>"; };
+		B5B294EB05C5DB0CF4E07FF3 /* Pods-Star Wars the Data AwakensTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Star Wars the Data AwakensTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Star Wars the Data AwakensTests/Pods-Star Wars the Data AwakensTests.release.xcconfig"; sourceTree = "<group>"; };
+		D714FA6C0C0BF084058447A0 /* Pods_Star_Wars_the_Data_AwakensTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Star_Wars_the_Data_AwakensTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E55AB8AB3EA7EB74509D142F /* Pods-Star Wars the Data Awakens.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Star Wars the Data Awakens.release.xcconfig"; path = "Pods/Target Support Files/Pods-Star Wars the Data Awakens/Pods-Star Wars the Data Awakens.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9BC4B5B21111F1200A6626C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1CE74770E2B2CD3A8B0A170 /* Pods_Star_Wars_the_Data_Awakens.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9BC4B7221111F1300A6626C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A16AEC923CDA391635F2B8F6 /* Pods_Star_Wars_the_Data_AwakensTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9BC4B7D21111F1300A6626C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91964DE94874976D6ACBA59D /* Pods_Star_Wars_the_Data_AwakensUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26B24B2170E88E39152904F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F1951985601C8D84F6D4101 /* Pods-Star Wars the Data Awakens.debug.xcconfig */,
+				E55AB8AB3EA7EB74509D142F /* Pods-Star Wars the Data Awakens.release.xcconfig */,
+				9099D6AFAABEA8420EF42EF3 /* Pods-Star Wars the Data AwakensTests.debug.xcconfig */,
+				B5B294EB05C5DB0CF4E07FF3 /* Pods-Star Wars the Data AwakensTests.release.xcconfig */,
+				37227BFE1845EFD7BC0A38C5 /* Pods-Star Wars the Data AwakensUITests.debug.xcconfig */,
+				0A7169DA569B7F8D373444E1 /* Pods-Star Wars the Data AwakensUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5A0C3CF4F3E76F81ECA4AC78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14A5E3B83D1B00C8B81A3579 /* Pods_Star_Wars_the_Data_Awakens.framework */,
+				D714FA6C0C0BF084058447A0 /* Pods_Star_Wars_the_Data_AwakensTests.framework */,
+				7A794B5095DC7F87CF798092 /* Pods_Star_Wars_the_Data_AwakensUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9BC4B5521111F1200A6626C = {
+			isa = PBXGroup;
+			children = (
+				A9BC4B922111211400A6626C /* fonts */,
+				A9BC4B6021111F1200A6626C /* Star Wars the Data Awakens */,
+				A9BC4B7821111F1300A6626C /* Star Wars the Data AwakensTests */,
+				A9BC4B8321111F1300A6626C /* Star Wars the Data AwakensUITests */,
+				A9BC4B5F21111F1200A6626C /* Products */,
+				26B24B2170E88E39152904F9 /* Pods */,
+				5A0C3CF4F3E76F81ECA4AC78 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A9BC4B5F21111F1200A6626C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9BC4B5E21111F1200A6626C /* Star Wars the Data Awakens.app */,
+				A9BC4B7521111F1300A6626C /* Star Wars the Data AwakensTests.xctest */,
+				A9BC4B8021111F1300A6626C /* Star Wars the Data AwakensUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9BC4B6021111F1200A6626C /* Star Wars the Data Awakens */ = {
+			isa = PBXGroup;
+			children = (
+				A9BC4BC22111747A00A6626C /* Constants.swift */,
+				A9BC4B9D2111353F00A6626C /* vehicles */,
+				A9BC4B9C2111353600A6626C /* starships */,
+				A9BC4B9A2111352400A6626C /* planets */,
+				A9BC4B992111351C00A6626C /* species */,
+				A9BC4B982111351600A6626C /* people */,
+				A9BC4B972111350F00A6626C /* films */,
+				A9BC4B6121111F1200A6626C /* AppDelegate.swift */,
+				A9BC4B6321111F1200A6626C /* ViewController.swift */,
+				A9BC4BC52111764F00A6626C /* SWDataTableViewController.xib */,
+				A9BC4BC42111764F00A6626C /* SWDataTableViewController.swift */,
+				A9BC4B6521111F1200A6626C /* Main.storyboard */,
+				A9BC4B6B21111F1300A6626C /* Assets.xcassets */,
+				A9BC4B6D21111F1300A6626C /* LaunchScreen.storyboard */,
+				A9BC4B7021111F1300A6626C /* Info.plist */,
+				A9BC4B6821111F1200A6626C /* Star_Wars_the_Data_Awakens.xcdatamodeld */,
+			);
+			path = "Star Wars the Data Awakens";
+			sourceTree = "<group>";
+		};
+		A9BC4B7821111F1300A6626C /* Star Wars the Data AwakensTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9BC4B7921111F1300A6626C /* Star_Wars_the_Data_AwakensTests.swift */,
+				A9BC4B7B21111F1300A6626C /* Info.plist */,
+			);
+			path = "Star Wars the Data AwakensTests";
+			sourceTree = "<group>";
+		};
+		A9BC4B8321111F1300A6626C /* Star Wars the Data AwakensUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A9BC4B8421111F1300A6626C /* Star_Wars_the_Data_AwakensUITests.swift */,
+				A9BC4B8621111F1300A6626C /* Info.plist */,
+			);
+			path = "Star Wars the Data AwakensUITests";
+			sourceTree = "<group>";
+		};
+		A9BC4B922111211400A6626C /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A9BC4B932111213600A6626C /* SerifGothicStd-Bold.otf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		A9BC4B972111350F00A6626C /* films */ = {
+			isa = PBXGroup;
+			children = (
+				A9BC4BBC2111361900A6626C /* FilmViewController.swift */,
+				A9BC4BBD2111361900A6626C /* FilmViewController.xib */,
+				A9BC4BC02111362300A6626C /* Film.swift */,
+			);
+			path = films;
+			sourceTree = "<group>";
+		};
+		A9BC4B982111351600A6626C /* people */ = {
+			isa = PBXGroup;
+			children = (
+				A9BC4BB6211135FB00A6626C /* Person.swift */,
+				A9BC4BB82111360A00A6626C /* PersonViewController.swift */,
+				A9BC4BB92111360A00A6626C /* PersonViewController.xib */,
+			);
+			path = people;
+			sourceTree = "<group>";
+		};
+		A9BC4B992111351C00A6626C /* species */ = {
+			isa = PBXGroup;
+			children = (
+				A9BC4BB0211135E000A6626C /* SpeciesViewController.swift */,
+				A9BC4BB1211135E000A6626C /* SpeciesViewController.xib */,
+				A9BC4BB4211135EF00A6626C /* Species.swift */,
+			);
+			path = species;
+			sourceTree = "<group>";
+		};
+		A9BC4B9A2111352400A6626C /* planets */ = {
+			isa = PBXGroup;
+			children = (
+				A9BC4BAA211135BB00A6626C /* Planet.swift */,
+				A9BC4BAC211135CD00A6626C /* PlanetViewController.swift */,
+				A9BC4BAD211135CD00A6626C /* PlanetViewController.xib */,
+			);
+			path = planets;
+			sourceTree = "<group>";
+		};
+		A9BC4B9C2111353600A6626C /* starships */ = {
+			isa = PBXGroup;
+			children = (
+				A9BC4BA02111356F00A6626C /* Starship.swift */,
+				A9BC4BA6211135AB00A6626C /* StarshipViewController.swift */,
+				A9BC4BA7211135AB00A6626C /* StarshipViewController.xib */,
+			);
+			path = starships;
+			sourceTree = "<group>";
+		};
+		A9BC4B9D2111353F00A6626C /* vehicles */ = {
+			isa = PBXGroup;
+			children = (
+				A9BC4B9E2111354D00A6626C /* Vehicle.swift */,
+				A9BC4BA22111359500A6626C /* VehicleViewController.swift */,
+				A9BC4BA32111359500A6626C /* VehicleViewController.xib */,
+			);
+			path = vehicles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9BC4B5D21111F1200A6626C /* Star Wars the Data Awakens */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9BC4B8921111F1300A6626C /* Build configuration list for PBXNativeTarget "Star Wars the Data Awakens" */;
+			buildPhases = (
+				1CA0E289FDFB8BAC15B6DD76 /* [CP] Check Pods Manifest.lock */,
+				A9BC4B5A21111F1200A6626C /* Sources */,
+				A9BC4B5B21111F1200A6626C /* Frameworks */,
+				A9BC4B5C21111F1200A6626C /* Resources */,
+				913DE38200D19E59F4254969 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Star Wars the Data Awakens";
+			productName = "Star Wars the Data Awakens";
+			productReference = A9BC4B5E21111F1200A6626C /* Star Wars the Data Awakens.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9BC4B7421111F1300A6626C /* Star Wars the Data AwakensTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9BC4B8C21111F1300A6626C /* Build configuration list for PBXNativeTarget "Star Wars the Data AwakensTests" */;
+			buildPhases = (
+				CC858384D287D232B713F8B6 /* [CP] Check Pods Manifest.lock */,
+				A9BC4B7121111F1300A6626C /* Sources */,
+				A9BC4B7221111F1300A6626C /* Frameworks */,
+				A9BC4B7321111F1300A6626C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9BC4B7721111F1300A6626C /* PBXTargetDependency */,
+			);
+			name = "Star Wars the Data AwakensTests";
+			productName = "Star Wars the Data AwakensTests";
+			productReference = A9BC4B7521111F1300A6626C /* Star Wars the Data AwakensTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A9BC4B7F21111F1300A6626C /* Star Wars the Data AwakensUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9BC4B8F21111F1300A6626C /* Build configuration list for PBXNativeTarget "Star Wars the Data AwakensUITests" */;
+			buildPhases = (
+				4ABF64A617F699A8C2EA09B3 /* [CP] Check Pods Manifest.lock */,
+				A9BC4B7C21111F1300A6626C /* Sources */,
+				A9BC4B7D21111F1300A6626C /* Frameworks */,
+				A9BC4B7E21111F1300A6626C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9BC4B8221111F1300A6626C /* PBXTargetDependency */,
+			);
+			name = "Star Wars the Data AwakensUITests";
+			productName = "Star Wars the Data AwakensUITests";
+			productReference = A9BC4B8021111F1300A6626C /* Star Wars the Data AwakensUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9BC4B5621111F1200A6626C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Sean Donato";
+				TargetAttributes = {
+					A9BC4B5D21111F1200A6626C = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					A9BC4B7421111F1300A6626C = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = A9BC4B5D21111F1200A6626C;
+					};
+					A9BC4B7F21111F1300A6626C = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = A9BC4B5D21111F1200A6626C;
+					};
+				};
+			};
+			buildConfigurationList = A9BC4B5921111F1200A6626C /* Build configuration list for PBXProject "Star Wars the Data Awakens" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9BC4B5521111F1200A6626C;
+			productRefGroup = A9BC4B5F21111F1200A6626C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9BC4B5D21111F1200A6626C /* Star Wars the Data Awakens */,
+				A9BC4B7421111F1300A6626C /* Star Wars the Data AwakensTests */,
+				A9BC4B7F21111F1300A6626C /* Star Wars the Data AwakensUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9BC4B5C21111F1200A6626C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9BC4BA9211135AB00A6626C /* StarshipViewController.xib in Resources */,
+				A9BC4B9421112C2000A6626C /* SerifGothicStd-Bold.otf in Resources */,
+				A9BC4B6F21111F1300A6626C /* LaunchScreen.storyboard in Resources */,
+				A9BC4B6C21111F1300A6626C /* Assets.xcassets in Resources */,
+				A9BC4BBF2111361900A6626C /* FilmViewController.xib in Resources */,
+				A9BC4BAF211135CD00A6626C /* PlanetViewController.xib in Resources */,
+				A9BC4BB3211135E000A6626C /* SpeciesViewController.xib in Resources */,
+				A9BC4BA52111359500A6626C /* VehicleViewController.xib in Resources */,
+				A9BC4B6721111F1200A6626C /* Main.storyboard in Resources */,
+				A9BC4BBB2111360A00A6626C /* PersonViewController.xib in Resources */,
+				A9BC4BC72111764F00A6626C /* SWDataTableViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9BC4B7321111F1300A6626C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9BC4B7E21111F1300A6626C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CA0E289FDFB8BAC15B6DD76 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Star Wars the Data Awakens-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4ABF64A617F699A8C2EA09B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Star Wars the Data AwakensUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		913DE38200D19E59F4254969 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Star Wars the Data Awakens/Pods-Star Wars the Data Awakens-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Star Wars the Data Awakens/Pods-Star Wars the Data Awakens-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC858384D287D232B713F8B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Star Wars the Data AwakensTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9BC4B5A21111F1200A6626C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9BC4BC62111764F00A6626C /* SWDataTableViewController.swift in Sources */,
+				A9BC4B9F2111354D00A6626C /* Vehicle.swift in Sources */,
+				A9BC4BA12111356F00A6626C /* Starship.swift in Sources */,
+				A9BC4B6421111F1200A6626C /* ViewController.swift in Sources */,
+				A9BC4BAB211135BB00A6626C /* Planet.swift in Sources */,
+				A9BC4BAE211135CD00A6626C /* PlanetViewController.swift in Sources */,
+				A9BC4BB2211135E000A6626C /* SpeciesViewController.swift in Sources */,
+				A9BC4BA42111359500A6626C /* VehicleViewController.swift in Sources */,
+				A9BC4BC32111747A00A6626C /* Constants.swift in Sources */,
+				A9BC4BC12111362300A6626C /* Film.swift in Sources */,
+				A9BC4B6221111F1200A6626C /* AppDelegate.swift in Sources */,
+				A9BC4BBA2111360A00A6626C /* PersonViewController.swift in Sources */,
+				A9BC4B6A21111F1200A6626C /* Star_Wars_the_Data_Awakens.xcdatamodeld in Sources */,
+				A9BC4BA8211135AB00A6626C /* StarshipViewController.swift in Sources */,
+				A9BC4BB7211135FB00A6626C /* Person.swift in Sources */,
+				A9BC4BBE2111361900A6626C /* FilmViewController.swift in Sources */,
+				A9BC4BB5211135EF00A6626C /* Species.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9BC4B7121111F1300A6626C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9BC4B7A21111F1300A6626C /* Star_Wars_the_Data_AwakensTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9BC4B7C21111F1300A6626C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9BC4B8521111F1300A6626C /* Star_Wars_the_Data_AwakensUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9BC4B7721111F1300A6626C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9BC4B5D21111F1200A6626C /* Star Wars the Data Awakens */;
+			targetProxy = A9BC4B7621111F1300A6626C /* PBXContainerItemProxy */;
+		};
+		A9BC4B8221111F1300A6626C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9BC4B5D21111F1200A6626C /* Star Wars the Data Awakens */;
+			targetProxy = A9BC4B8121111F1300A6626C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9BC4B6521111F1200A6626C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9BC4B6621111F1200A6626C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9BC4B6D21111F1300A6626C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9BC4B6E21111F1300A6626C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9BC4B8721111F1300A6626C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9BC4B8821111F1300A6626C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9BC4B8A21111F1300A6626C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F1951985601C8D84F6D4101 /* Pods-Star Wars the Data Awakens.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25PH49W475;
+				INFOPLIST_FILE = "Star Wars the Data Awakens/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SD.Star-Wars-the-Data-Awakens";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A9BC4B8B21111F1300A6626C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E55AB8AB3EA7EB74509D142F /* Pods-Star Wars the Data Awakens.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25PH49W475;
+				INFOPLIST_FILE = "Star Wars the Data Awakens/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SD.Star-Wars-the-Data-Awakens";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A9BC4B8D21111F1300A6626C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9099D6AFAABEA8420EF42EF3 /* Pods-Star Wars the Data AwakensTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25PH49W475;
+				INFOPLIST_FILE = "Star Wars the Data AwakensTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SD.Star-Wars-the-Data-AwakensTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Star Wars the Data Awakens.app/Star Wars the Data Awakens";
+			};
+			name = Debug;
+		};
+		A9BC4B8E21111F1300A6626C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5B294EB05C5DB0CF4E07FF3 /* Pods-Star Wars the Data AwakensTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25PH49W475;
+				INFOPLIST_FILE = "Star Wars the Data AwakensTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SD.Star-Wars-the-Data-AwakensTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Star Wars the Data Awakens.app/Star Wars the Data Awakens";
+			};
+			name = Release;
+		};
+		A9BC4B9021111F1300A6626C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37227BFE1845EFD7BC0A38C5 /* Pods-Star Wars the Data AwakensUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25PH49W475;
+				INFOPLIST_FILE = "Star Wars the Data AwakensUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SD.Star-Wars-the-Data-AwakensUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Star Wars the Data Awakens";
+			};
+			name = Debug;
+		};
+		A9BC4B9121111F1300A6626C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A7169DA569B7F8D373444E1 /* Pods-Star Wars the Data AwakensUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25PH49W475;
+				INFOPLIST_FILE = "Star Wars the Data AwakensUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SD.Star-Wars-the-Data-AwakensUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Star Wars the Data Awakens";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9BC4B5921111F1200A6626C /* Build configuration list for PBXProject "Star Wars the Data Awakens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9BC4B8721111F1300A6626C /* Debug */,
+				A9BC4B8821111F1300A6626C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9BC4B8921111F1300A6626C /* Build configuration list for PBXNativeTarget "Star Wars the Data Awakens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9BC4B8A21111F1300A6626C /* Debug */,
+				A9BC4B8B21111F1300A6626C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9BC4B8C21111F1300A6626C /* Build configuration list for PBXNativeTarget "Star Wars the Data AwakensTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9BC4B8D21111F1300A6626C /* Debug */,
+				A9BC4B8E21111F1300A6626C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9BC4B8F21111F1300A6626C /* Build configuration list for PBXNativeTarget "Star Wars the Data AwakensUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9BC4B9021111F1300A6626C /* Debug */,
+				A9BC4B9121111F1300A6626C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A9BC4B6821111F1200A6626C /* Star_Wars_the_Data_Awakens.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A9BC4B6921111F1200A6626C /* Star_Wars_the_Data_Awakens.xcdatamodel */,
+			);
+			currentVersion = A9BC4B6921111F1200A6626C /* Star_Wars_the_Data_Awakens.xcdatamodel */;
+			path = Star_Wars_the_Data_Awakens.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A9BC4B5621111F1200A6626C /* Project object */;
+}
